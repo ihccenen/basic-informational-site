@@ -1,0 +1,58 @@
+:root {
+  --black: hsl(0, 0%, 0%);
+  --d-m-violet: hsl(278, 45%, 47%);
+  --p-violet: hsl(270, 100%, 86%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Tahoma, sans-serif;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+a:hover {
+  color: var(--d-m-violet);
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  max-width: 50ch;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.nav {
+  background-color: var(--p-violet);
+  padding: 1rem;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.header {
+  display: grid;
+  justify-content: center;
+  margin-top: 3rem;
+  gap: 3rem;
+}
+
+.header h1 {
+  text-align: center;
+}
